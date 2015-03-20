@@ -1,0 +1,83 @@
+.cjsLogo {
+    width: 100px;
+    top: -18px;
+    position: relative;
+}
+
+.navbar-default .navbar-toggle {
+	background-color:transparent;
+	border: none;
+}
+
+.btn-xl {
+	background-color: rgba(51, 116, 232, 0.81);
+	border:none;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: rgb(32, 80, 142);
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: rgb(32, 80, 142);
+}
+
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+	background-color: rgb(32, 80, 142);
+}
+
+
+
+.navbar-default .nav li a {
+	text-shadow: 5px 5px 10px black;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+	background: rgba(0, 0, 0, 0.52);
+}
+
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: grey;
+}
+
+
+header .intro-text .intro-lead-in {
+	font-style: normal;
+	margin-bottom: 25px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	line-height: 30px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	text-shadow: 3px 3px 2px black;
+}
+
+header .intro-text .intro-heading {
+	text-shadow:5px 5px 10px black;
+	font-weight: 100;
+	font-style: normal;
+	font-family: helvetica;
+	letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+
+
+	header .intro-text .intro-lead-in {
+		
+		position: relative;
+		top:-55px;
+	}
+
+	header .intro-text .intro-heading {
+		
+		position: relative;
+		top:-40px;
+	}
+
+
+
+
+}
